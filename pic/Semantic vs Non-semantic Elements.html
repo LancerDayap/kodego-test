@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://127.0.0.1:5500/non%20sematic.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic vs Non-semantic Elements</title>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1096.0" data-gr-ext-installed="">
+    <header style="display: flex; justify-content: center; background-color: beige;">
+        <img style="margin-right: auto;" src="./Semantic vs Non-semantic Elements_files/dog0.jpg" alt="" height="100px">
+        <nav>
+            <ul style="list-style: none; display: flex;">
+                <div>
+                    <ul>
+                         <li style="margin: 20px; list-style: none;">WOOF WOOF</li>
+                    </ul>
+                </div>
+                <li style="margin: 20px;">Home</li>
+                <li style="margin: 20px;">About Us</li>
+                <li style="margin: 20px;">Projects</li>
+            </ul>
+        </nav>
+    </header>
+    <main style="display: flex; justify-content: center; align-items: center;">
+        <div style="margin-right: 100px;">
+        <h1 style="color: mediumslateblue;">This is my Dog's blog website</h1>
+        <h3 style="display: flex; justify-content: center;">Welcome have a nice stay</h3>
+        </div>
+    </main>
+    <section>
+        <h3 style="text-align: center;">About Us</h3>
+        <div style="display: flex; justify-content: center;">
+            <p style="margin-right: 50px;">Hi my name is Mello, I'm a student of KodeGo. <br> I like to <span style="font-weight: bold;">RUN</span> and <span style="font-weight: bold;">EAT</span> and <span style="font-weight: bold;"></span> and <span style="font-weight: bold;">SLEEP</span> and <span style="font-weight: bold;">REPEAT</span>.</p>
+         <img src="./Semantic vs Non-semantic Elements_files/dog1.jpg" alt="" height="300">
+    </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section>
+        <h3 style="text-align: center;">My Projects</h3>
+        <div style="display: flex; justify-content: center;">
+            <figure>
+                <img src="./Semantic vs Non-semantic Elements_files/dog2.jpg" alt="" height="200px">
+                <figcaption>Project1</figcaption>
+            </figure>
+            <figure>
+                <img src="./Semantic vs Non-semantic Elements_files/dog3.JPG" alt="" height="200px">
+                <figcaption>Project2</figcaption>
+            </figure>
+            <figure>
+                <img src="./Semantic vs Non-semantic Elements_files/dog4.JPG" alt="" height="200px">
+                <figcaption>Project3</figcaption>
+            </figure>
+            
+        </div>
+        <div style="background-color: antiquewhite;">
+            <p style="text-align: center;">Contact Us</p>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <textarea name="" id="" cols="23" rows="4">Please be good to me!!!</textarea>
+        </div>
+        <br>
+    </section>    
+    <footer style="display: flex; justify-content: center; background-color: gray; color: white;">
+        <nav>
+            <ul style="list-style: none; display: flex">
+                <li style="margin: 20px;">Home</li>
+                <li style="margin: 20px;">About Us</li>
+                <li style="margin: 20px;">Projects</li>
+            </ul>
+        </nav>
+        
+    </footer>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

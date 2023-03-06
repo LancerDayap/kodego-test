@@ -1,0 +1,168 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Styles */
+  .navbar {
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  
+  /* Hero Section Styles */
+  .hero-section {
+    background-color: #f7f7f7;
+    padding: 5rem 0;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-section .btn-primary {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+  }
+  
+  /* Product Section Styles */
+  .product-section {
+    padding: 5rem 0;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    border: none;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: contain;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+  }
+  
+  /* Services Section Styles */
+  .services-section {
+    background-color: #f7f7f7;
+    padding: 5rem 0;
+  }
+  
+  .service-card {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .service-card i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .service-text {
+    font-size: 1.2rem;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+  }
+  
+  .footer-nav li {
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  
+  .footer-nav li a {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  .footer-nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-nav li a:hover {
+    text-decoration: none;
+    color: #f7f7f7;
+  }
+  
+  .footer-nav li a:focus {
+    text-decoration: none;
+    color: #f7f7f7;
+  }
+  
+  /* Animations */
+  .hero-section .col-md-6:nth-child(1) {
+    animation-name: slide-in-left;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  .hero-section .col-md-6:nth-child(2) {
+    animation-name: slide-in-right;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  .product-section .card:nth-child(odd) {
+    animation-name: slide-in-left;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  .product-section .card:nth-child(even) {
+    animation-name: slide-in-right;
+    animation-duration: 1s;
+    animation-fill-mode: forwards
+  }

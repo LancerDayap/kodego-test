@@ -1,0 +1,200 @@
+/* Global Styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #222;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+/* Navigation Styles */
+
+.navbar {
+    background-color: #222;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+/* Hero Section Styles */
+
+.hero-section {
+    background-image: url('./img/watch.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px #fff;
+}
+
+.hero-text {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #fff;
+}
+
+.btn-primary {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #222;
+}
+
+/* Product Section Styles */
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/* Services Section Styles */
+
+.services-section {
+    background-color: #f2f2f2;
+    padding: 100px 0;
+}
+
+.service-card {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-title {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.service-text {
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 1px;
+margin-top: 15px;
+margin-bottom: 0;
+}
+
+.service-card i {
+font-size: 48px;
+color: #222;
+margin-bottom: 30px;
+transition: color 0.3s ease;
+}
+
+.service-card:hover i {
+color: #c5a47e;
+}
+
+/* Footer Styles */
+
+footer {
+background-color: #222;
+color: #fff;
+padding: 30px 0;
+}
+
+.footer-nav {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+.footer-nav li {
+list-style: none;
+margin-left: 30px;
+}
+
+.footer-nav a {
+color: #fff;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 1px;
+transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+color: #c5a47e;
+}

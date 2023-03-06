@@ -1,0 +1,164 @@
+ /* Navigation Bar */
+ .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url(./pic/b1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title, .hero-text {
+    color: white;
+}
+
+.hero-title {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.hero-text {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.btn-primary {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+}
+
+/* videocontainer */
+  .video-player {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: auto;
+    z-index: 0;
+    transition: .1s;
+    border-radius: 4px;
+  }
+
+  .video-player:hover {
+    transition: .3s;
+    transform: scale(2.3) translateX(-110px) translateY(-30px);
+  }
+  
+
+  
+  
+
+/* Product Section */
+.product-section {
+    padding: 6rem 0;
+    background-color: #f1f1f1;
+}
+
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.card-title {
+    background: rgba( 74, 74, 74, 0.15 );
+box-shadow: 0 2px 10px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card-text {
+    background: rgba( 155, 155, 155, 0.15 );
+box-shadow: 0 2px 10px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 2px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    object-fit: contain;
+    height: 250px;
+    transition: .2s;
+}
+
+/* Services Section */
+.services-section {
+    padding: 6rem 0;
+    background-color: #f5f5f5;
+}
+
+.service-card {
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+}
+
+.service-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-text {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #f5f5f5;
+    padding: 3rem 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.footer-nav a {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+}
+
+.footer-nav a:hover {
+    color: #ddd;
+}

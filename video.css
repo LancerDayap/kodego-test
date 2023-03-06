@@ -1,0 +1,38 @@
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .video-player {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; /* Initial width */
+    height: auto; /* Initial height */
+    z-index: 0;
+    transition: width 0.3s ease, height 0.3s ease;
+  }
+  
+  .video-player.active {
+    width: 100%; /* Active width */
+    height: 0;
+    padding-bottom: 56.25%; /* Active aspect ratio */
+  }
+  
